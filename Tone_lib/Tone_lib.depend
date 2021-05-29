@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1622278414 source:c:\users\daans\documents\codeblock code\tone_libary\tone_lib\fuse.c
+	<avr/io.h>
+
+1622295968 source:c:\users\daans\documents\codeblock code\tone_libary\tone_lib\main.c
+	<avr/io.h>
+	"tone.h"
+	<util/delay.h>
+
+1622295867 source:c:\users\daans\documents\codeblock code\tone_libary\tone_lib\tone.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"tone.h"
+
+1622295867 c:\users\daans\documents\codeblock code\tone_libary\tone_lib\tone.h
+
