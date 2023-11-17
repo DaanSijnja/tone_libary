@@ -13,11 +13,41 @@
 int main(void)
 {
     init_tone();
+    int a = 150;
     while(1)
     {
-        //beep
-        playtone(554,500);
-        _delay_ms(1000);
+        //megalovania
+        playtone(NOTE_D3,a-5);
+        _delay_ms(a);
+
+        playtone(NOTE_D3,a-5);
+        _delay_ms(a);
+
+        playtone(NOTE_D4,a-5);
+        _delay_ms(2*a);
+
+        playtone(NOTE_A3,a-5);
+        _delay_ms(3*a);
+
+        playtone(NOTE_GS3,a-5);
+        _delay_ms(2*a);
+
+        playtone(NOTE_G3,a-5);
+        _delay_ms(2*a);
+
+        playtone(NOTE_F3,a-5);
+        _delay_ms(2*a);
+
+        playtone(NOTE_D3,a-5);
+        _delay_ms(a);
+
+        playtone(NOTE_F3,a-5);
+        _delay_ms(a);
+
+        playtone(NOTE_G3,a-5);
+        _delay_ms(a);
+
+
     }
     ;
 

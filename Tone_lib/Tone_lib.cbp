@@ -56,6 +56,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tone.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

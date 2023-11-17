@@ -17,6 +17,7 @@ void init_tone(){
     TIMERA |= (1 << 1); //ctc mode
     TIMERB = 0; //timer off
 
+    DDRB |= (1 << PB1);
     DDR_peizo |= (1 << pin_peizo);
     PORT_peizo &= ~(1 << pin_peizo);
 
@@ -90,6 +91,7 @@ ISR(TIMER_COMPA){
     }
     else
     {
+        PORTB ^= (1 << PB1);
         TIMERMASK &= ~(1 << 1); //disable OCRA interrupt
         PORT_peizo &= ~(1 << pin_peizo); //peizo pin off
     }
